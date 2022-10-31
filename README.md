@@ -1,2 +1,2 @@
-# gridblog
-Layout responsivo utilizando propriedades do Grid Layout.
+## gridblog
+🟣 Layout responsivo utilizando propriedades do Grid Layout.
