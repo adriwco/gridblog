@@ -1,3 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Vollkorn', Georgia, serif;
+  color: #111111;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
 img{
-  max-width: 100px;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
