@@ -6,16 +6,38 @@ body{
   font-family: 'Vollkorn', Georgia, serif;
   color: #111111;
 }
-ul{
+ul,li{
   list-style: none;
 }
 a{
   text-decoration: none;
-  display: inline-block;
-  color: inherit;
 }
 img{
-  display: block;
   max-width: 100%;
   height: auto;
+}
+/*_______________ GRID GERAL _______________*/
+.estrutura{
+ display: grid;
+ grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+ grid-template-areas: 
+  "header header header"
+  "sidenav content anuncios"
+  "footer footer footer"
+ ;
+}
+.header{
+  grid-area: header;
+}
+.sidenav{
+  grid-area: sidenav;
+}
+.content{
+  grid-area: content;
+}
+.anuncios{
+  grid-area: anuncios;
+}
+.footer{
+  grid-area: footer;
 }
