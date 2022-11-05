@@ -10,6 +10,7 @@ ul,li{
   list-style: none;
 }
 a{
+  display: block;
   text-decoration: none;
 }
 img{
@@ -54,16 +55,34 @@ img{
 .header nav a:hover{
   background: rgba(0, 0, 0, .5);
 }
-
+/*_______________ SIDENAV _______________*/
 .sidenav{
   grid-area: sidenav;
+  background: #fafbfc;
+  padding: 30px;
 }
+.sidenav li a{
+  min-width: 60px;
+  max-width: 100px;
+  margin: 0 auto 30px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.15);
+  transition: .1s ease-out;
+}
+.sidenav li a:hover{
+  background: #b07dfb;
+}
+/*_______________ CONTENT _______________*/
 .content{
   grid-area: content;
 }
+/*_______________ ANUNCIOS _______________*/
 .anuncios{
   grid-area: anuncios;
 }
+/*_______________ FOOTER _______________*/
 .footer{
   grid-area: footer;
 }
