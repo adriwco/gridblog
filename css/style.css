@@ -19,6 +19,9 @@ img{
   height: auto;
   border-radius: 5px;
 }
+img[src$="wolf3.jpg"]{
+  width: 100%;
+}
 /*_______________ GRID GERAL _______________*/
 .estrutura{
  display: grid;
@@ -149,6 +152,44 @@ color: rgba(0, 0, 0, .7);
   padding: 5px 0;
   position: relative;
   top: 2px;
+}
+/*_____ DESTAQUE _____*/
+.content .destaque{
+  font-size: 1em;
+  color: #b07dfb;
+  max-width: 16em;
+  line-height: 1.3;
+}
+.citacao, .atributos{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, .15);
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  position: relative;
+  align-self: start;
+}
+.citacao p{
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.citacao cite{
+  position: absolute;
+  color: #ffffff;
+  font-size: 1em;
+  right: 15px;
+}
+.atributos li{
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+.atributos li + li{
+  border-top: 2px solid #b07dfb;
 }
 /*_______________ ANUNCIOS _______________*/
 .anuncios{
