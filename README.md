@@ -11,7 +11,10 @@
 
 ***
 #### 🟣Pré-visualização (screenshot):
-[![gridblog](https://user-images.githubusercontent.com/80191040/200972732-d80758ad-0104-4e26-8b2e-8a924a87aae2.png)](https://adriwco.github.io/gridblog/)
+
+<p align="center">
+<a href="https://adriwco.github.io/gridblog"><img src="https://user-images.githubusercontent.com/80191040/200972732-d80758ad-0104-4e26-8b2e-8a924a87aae2.png" alt="site"></a>
+</p>
 
 ***
-### <p align="center">🟣[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)🟣</p>
+### <p align="center">[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://opensource.org/licenses/MIT)</p>
